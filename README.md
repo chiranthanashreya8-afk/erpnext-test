@@ -16,14 +16,3 @@ This repository contains a 1-click GitHub Codespaces setup to test ERPNext with 
 5. Once the Codespace starts, wait a minute for the database and web server to initialize.
 6. Open the **PORTS** tab in Codespaces and click the URL next to port `8080`.
 7. You should see the ERPNext login screen!
-
-### Credentials
-
-- **Username**: `Administrator`
-- **Password**: `admin`
-
-*(If the password `admin` doesn't work, wait a moment or restart the `frontend` container, as the initialization scripts may still be running).*
-
-## Modifying Apps
-
-If you want to add or remove apps, edit the `apps.json` file in the root directory, then rebuild the Codespace container.
